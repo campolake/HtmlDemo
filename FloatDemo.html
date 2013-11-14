@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .title {
+            height: 30px;
+            background-color: #00ffff;
+            border: 1px solid #4cff00;
+            margin: 5px 0px;
+            clear: both;
+        }
+
+        #floatdemo div {
+            border: 1px solid #808080;
+            float: left;
+            width: 100px;
+            height: 90px;
+            margin-left: 10px; 
+            margin-top:5px;
+        }
+
+        #InlineDemo div {
+            border: 1px solid #808080;
+            display: inline;
+            width: 100px;
+            height: 90px;
+            margin-left: 10px; 
+            margin-top:5px;
+        }
+
+        #InlineBlock div {
+            border: 1px solid #808080;
+            display: inline-block;
+            width: 100px;
+            height: 90px;            
+            margin-top:5px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">float Demo</div>
+    <div id="floatdemo">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="title">InlineBlock Demo</div>
+    <div id="InlineBlock">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div style="height:150px;">5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+    <div class="title">Inline Demo</div>
+    <div id="InlineDemo">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+</body>
+</html>
